@@ -12,7 +12,6 @@ body{
   padding: 15px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -26,16 +25,13 @@ body{
   float: right;
   width: 25%;
 }
-#vero{
-
-  width:450px;
- 
-}
 .footer {
   padding: 10px;
   text-align: center;
 }
-
+ul.b {
+  list-style-type: square;
+}
 @media screen and (max-width:600px) {
   .column {
     width: 100%;
